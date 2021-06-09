@@ -1,0 +1,38 @@
+.header{
+
+    margin-top: $separacion;
+    display: flex;
+    justify-content: space-between;
+
+    .titulo{ 
+        
+        
+        h1{
+            font-size: 2.4rem;
+            color: $vino;
+            margin: 0;
+            @include tablet{
+                font-size: 4rem;
+            }
+        }
+        p{
+            font-size: 1rem;
+            font-weight: $bold;
+            color: $vino;
+            @include tablet{
+                font-size: 2rem;
+            }
+        }
+    }
+    .logo{
+        
+        width: 15rem;
+        @include tablet{
+            width: 20rem;
+            
+        }
+    }
+    .cidetec{
+        padding-left: 5rem;
+    }
+}

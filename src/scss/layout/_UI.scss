@@ -1,0 +1,27 @@
+body{
+    background-color: $blanco;
+}
+
+.login-contenedor{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $gris;
+    .seccion{
+        display: none;
+        margin-top: 5rem;
+       
+        h2{
+            background-color: $blanco;
+            font-size: 2rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            color: $azul2;
+            
+        }
+    }
+}
+.mostrar-seccion{
+    display: block!important;
+}

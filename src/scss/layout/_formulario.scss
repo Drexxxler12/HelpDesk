@@ -1,0 +1,54 @@
+.formulario{
+    margin:auto;
+    align-items: center;
+    margin-bottom: $separacion;
+}
+.campo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    label{
+        color: $azul2;
+        flex: 0 0 10rem;
+        font-weight: $bold;
+    }
+    input{
+        flex: 1;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+    }
+    
+}
+.button{
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    background-color: $azul;
+    color: $azul2;
+    font-weight: $bold;
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-top: $separacion/3;
+
+}
+
+
+.alerta{
+padding: .5rem;
+margin-bottom: .5rem;
+color: $blanco;
+font-weight: $bold;
+text-align: center;
+    &.error{
+        background-color:$vino;
+    }
+    &.exito{
+        background-color: $verde;
+    }
+    &.padding{
+        margin-bottom: 5rem;
+    }
+}

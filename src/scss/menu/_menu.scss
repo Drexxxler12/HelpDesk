@@ -1,0 +1,55 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: $azul;
+    width: 100%;
+    padding-bottom: 5rem;
+    margin: 0;
+    button{
+        background-color:$blanco;
+        color: $azul2;
+        font-size: 1.4rem;
+        font-weight: $bold;
+        border: none;
+        padding: 1rem;
+        margin-bottom: $separacion;
+        margin:1rem 2rem ;
+        border-radius: 1rem;
+
+        &:hover{
+            cursor: pointer;
+            background-color: $azul2;
+            color: $blanco;
+        }
+    }   
+    h2{
+        background-color: $blanco;
+        color: $azul2;
+        margin-top: $separacion;
+        padding: $separacion;
+    }
+    
+    .enlace{
+        background-color:$blanco;
+        color: $azul2;
+        font-size: 1.4rem;
+        font-weight: $bold;
+        border: none;
+        padding: 1rem;
+        margin-bottom: $separacion;
+        margin:1rem 2rem ;
+        border-radius: 1rem;
+        text-align: center;
+
+        &:hover{
+            cursor: pointer;
+            background-color: $azul2;
+            color: $blanco;
+        }
+    }
+
+    .icon{
+        margin: auto;
+        max-width: 30rem;
+    }
+}

@@ -1,0 +1,56 @@
+.text-center {
+    text-align: center;
+}
+.btn-verde{
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    background-color: $azul2;
+    color: $blanco;
+    font-weight: $bold;
+    border: none;
+    border-radius: 1rem;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: $separacion/5;
+    display: block;
+    width: 100%;
+    &:hover{
+        color: $azul2;
+        background-color: $blanco;
+    }
+
+}
+.btn-rojo{
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    background-color: $vino;
+    color: $blanco;
+    font-weight: $bold;
+    border: none;
+    border-radius: 1rem;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: $separacion/5;
+
+    &:hover{
+        color: $azul2;
+        background-color: $blanco;
+    }
+}
+.w-100{
+    width: 100%;
+}
+.w-80{
+    max-width: 100%;
+}
+.back-ground{
+    background-color: $azul;
+    border-radius: 1rem;
+    a{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+   
+}

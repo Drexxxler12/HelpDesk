@@ -1,0 +1,38 @@
+
+.peticiones{
+    background-color: $blanco;
+    display:table;
+    thead{
+        background-color: $vino;
+        th{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            color: $blanco;
+        }
+    }
+    tbody{
+        background-color: $azul;
+        td{
+            color: $negro;
+        }
+    }
+    @include desktop{
+        margin-left: $separacion/3;
+        width: 100%;
+            thead{
+                th{
+                    padding: 0.5rem;
+                    text-transform: uppercase;
+                }
+            }
+            tbody{
+                td{
+                    padding: 0.5rem;
+                }
+            }
+        }
+
+    
+
+    
+}
